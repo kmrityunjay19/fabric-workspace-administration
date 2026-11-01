@@ -1,0 +1,42 @@
+{
+  "workspaces": [
+    {
+      "id": "b39f4d15-7d64-4e36-ae49-a6f2e8e96001",
+      "name": "Finance Analytics",
+      "state": "Active",
+      "reports": [
+        {
+          "id": "83001111-1111-4111-8111-111111111111",
+          "name": "Finance Executive Dashboard",
+          "datasetId": "91001111-1111-4111-8111-111111111111",
+          "datasetWorkspaceId": "fb431e81-a77d-4402-8841-9ed4d6d4e002"
+        }
+      ],
+      "datasets": [
+        {
+          "id": "91001111-1111-4111-8111-111111111111",
+          "name": "Finance Semantic Model",
+          "schemaMayNotBeUpToDate": false,
+          "upstreamDataflows": [
+            {"targetDataflowId": "72001111-1111-4111-8111-111111111111", "groupId": "fb431e81-a77d-4402-8841-9ed4d6d4e002"}
+          ]
+        }
+      ],
+      "dataflows": []
+    },
+    {
+      "id": "fb431e81-a77d-4402-8841-9ed4d6d4e002",
+      "name": "Operations Lakehouse",
+      "state": "Active",
+      "reports": [],
+      "datasets": [],
+      "dataflows": [
+        {
+          "objectId": "72001111-1111-4111-8111-111111111111",
+          "name": "Operations Curated Flow",
+          "upstreamDataflows": []
+        }
+      ]
+    }
+  ]
+}
