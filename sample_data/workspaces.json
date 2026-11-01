@@ -1,0 +1,28 @@
+{
+  "workspaces": [
+    {
+      "id": "b39f4d15-7d64-4e36-ae49-a6f2e8e96001",
+      "name": "Finance Analytics",
+      "type": "Workspace",
+      "state": "Active",
+      "capacityId": "f2f113af-6b2c-4521-a19f-13d5c3e08901",
+      "domainId": "7f081c83-2e1a-4d7d-a679-0090e5e97801"
+    },
+    {
+      "id": "fb431e81-a77d-4402-8841-9ed4d6d4e002",
+      "name": "Operations Lakehouse",
+      "type": "Workspace",
+      "state": "Active",
+      "capacityId": "f2f113af-6b2c-4521-a19f-13d5c3e08901",
+      "domainId": "7f081c83-2e1a-4d7d-a679-0090e5e97801"
+    },
+    {
+      "id": "3d995f6f-7ae9-41fd-bf00-c789f3e10003",
+      "name": "Retired Reporting",
+      "type": "Workspace",
+      "state": "Deleted",
+      "capacityId": "9d34c948-98d9-4fb8-880b-3f59f8411002",
+      "domainId": null
+    }
+  ]
+}
